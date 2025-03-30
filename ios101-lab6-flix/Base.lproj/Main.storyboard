@@ -81,9 +81,12 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7hk-ep-ZeN">
                                 <rect key="frame" x="0.0" y="103" width="393" height="218"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7hk-ep-ZeN" secondAttribute="height" multiplier="393:218" id="TND-HT-EXn"/>
+                                </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SHe-vr-el9">
-                                <rect key="frame" x="10" y="178.99999999999997" width="373" height="292.33333333333326"/>
+                                <rect key="frame" x="10" y="179" width="373" height="292.33333333333326"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="65Z-hf-wp0">
                                         <rect key="frame" x="129.66666666666666" y="0.0" width="114" height="165"/>
@@ -121,10 +124,10 @@
                             <constraint firstItem="7hk-ep-ZeN" firstAttribute="top" secondItem="oCF-Ao-X9M" secondAttribute="top" id="5Kw-gf-WzI"/>
                             <constraint firstItem="7hk-ep-ZeN" firstAttribute="centerX" secondItem="WuZ-OC-hn9" secondAttribute="centerX" id="L12-AW-N9g"/>
                             <constraint firstItem="7hk-ep-ZeN" firstAttribute="leading" secondItem="oCF-Ao-X9M" secondAttribute="leading" id="UeG-HD-emc"/>
-                            <constraint firstItem="SHe-vr-el9" firstAttribute="top" secondItem="oCF-Ao-X9M" secondAttribute="top" constant="80" id="cLc-IJ-lwU"/>
+                            <constraint firstItem="SHe-vr-el9" firstAttribute="top" secondItem="oCF-Ao-X9M" secondAttribute="top" constant="90" id="cLc-IJ-lwU"/>
                             <constraint firstItem="oCF-Ao-X9M" firstAttribute="trailing" secondItem="SHe-vr-el9" secondAttribute="trailing" constant="10" id="cXj-jj-L0Y"/>
-                            <constraint firstItem="oCF-Ao-X9M" firstAttribute="bottom" secondItem="7hk-ep-ZeN" secondAttribute="bottom" constant="497" id="hwP-a1-pAL"/>
                             <constraint firstItem="SHe-vr-el9" firstAttribute="leading" secondItem="oCF-Ao-X9M" secondAttribute="leading" constant="10" id="jIO-3U-kHB"/>
+                            <constraint firstItem="7hk-ep-ZeN" firstAttribute="trailing" secondItem="oCF-Ao-X9M" secondAttribute="trailing" id="lhF-Kg-ocO"/>
                             <constraint firstItem="SHe-vr-el9" firstAttribute="centerX" secondItem="WuZ-OC-hn9" secondAttribute="centerX" id="xGG-Fa-Q7O"/>
                         </constraints>
                     </view>
