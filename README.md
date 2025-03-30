@@ -16,7 +16,7 @@ This is the project for [CodePath's](https://www.codepath.org) [iOS 101](https:/
 - iPhone 8 or newer
 
 ### Demo
-![Simulator Screen Recording - iPhone 16 Pro - 2025-03-10 at 17 04 42](https://github.com/user-attachments/assets/e7183805-3fda-4b13-9500-522e3c61eb50)
+![Simulator Screen Recording - iPhone 16 Pro - 2025-03-29 at 20 54 50](https://github.com/user-attachments/assets/55444013-8fc3-4ccb-bc00-61ad13956238)
 
 ## Contact
 
