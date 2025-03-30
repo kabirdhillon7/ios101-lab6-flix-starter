@@ -71,7 +71,7 @@
             </objects>
             <point key="canvasLocation" x="976.33587786259534" y="-324.64788732394368"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--Movie Details-->
         <scene sceneID="Plo-Rn-H3o">
             <objects>
                 <viewController id="Ezo-Eh-HJj" customClass="DetailViewController" customModule="ios101_lab6_flix" customModuleProvider="target" sceneMemberID="viewController">
@@ -119,7 +119,7 @@
                         <viewLayoutGuide key="safeArea" id="oCF-Ao-X9M"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="pis-R7-svz"/>
+                    <navigationItem key="navigationItem" title="Movie Details" id="pis-R7-svz"/>
                     <connections>
                         <outlet property="backdropImageView" destination="7hk-ep-ZeN" id="ML8-JS-glO"/>
                         <outlet property="overviewLabel" destination="FbR-zh-whX" id="jNs-MV-XLc"/>
